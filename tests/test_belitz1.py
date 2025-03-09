@@ -120,7 +120,7 @@ def test_complete_scenario(setup):
         nav_button = page.locator(f'button:has-text("{click}")').first
         expect(nav_button).to_be_visible()
         nav_button.click()
-        page.wait_for_load_state("networkidle")  # Sayfanın yüklenmesini bekleyin
+        page.wait_for_load_state("networkidle")  
         print(f"Clicked on {click} button successfully")
 
     # 5. Test Belitz link
