@@ -58,6 +58,6 @@ async def test_belitz_extension():
             await dialog.accept()
 
         # 12. Kullanıcı çıkışı yapma testi
-        await page.click("button[title='ikilic211@posta.pau.edu.tr']")
+        await page.click("button[title='...']")
 
         await browser_context.close()
