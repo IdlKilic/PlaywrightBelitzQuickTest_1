@@ -1,0 +1,13 @@
+# Playwright Python Project
+
+## Python Version:
+- **Python 3.10.11** (venv)
+
+## Installation and Setup
+
+1. **Install Required Packages**:
+   First, make sure you have the necessary Python packages installed. You can do this by running the following commands in your terminal:
+
+   ```bash
+   pip install pytest-playwright
+   playwright install

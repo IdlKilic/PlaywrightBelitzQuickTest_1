@@ -1,0 +1,20 @@
+{
+   "background": {
+      "service_worker": "background.js"
+   },
+   "description": "Copilot | AI Assistant",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt63qThayi6GYJG6Lb7EPK2AigYD+O+7CCtq7W1JQmYIk5UNVZYBFlkL3oJGuktXMXqnjQ6f755MLM6VQr7wQzHRRFbdGHq2dw1RDmhT45/mG1hgrHLcXq+c/RCMhlh5UZpgQxEjvdRs2yMj6V4SoSoFGpObrHaEcxdwulmXE+kwULiahip3Dq0+YG5jYSTo3Ce9SDouP1wvKLAeyL7Oj8NcuCtfhwyHZbMXuQ6uCZeOUxduCLM8IypGftGHJz7M3tJk3OpnrCAvjtBsenBxmK4A/jwUfmHm2fVkST4GazxHZHngjGjGOSGs1e+pEDDHhJNGbR5HFgOwFanK28iSGUwIDAQAB",
+   "manifest_version": 3,
+   "name": "belitz",
+   "permissions": [ "storage", "sidePanel" ],
+   "side_panel": {
+      "default_path": "extension.html"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.0"
+}
